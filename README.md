@@ -1,6 +1,7 @@
 # AMD Hackintosh OpenCore configuration
 This repository acts as a storage for my OpenCore configuration for macOS 11.x Big Sur running on the Asus Crosshair VIII Hero (WiFi) X570 motherboard with an AMD Ryzen 5900x and Radeon 6800.
 
+DO NOT attemt to use this EFI if you do not know what you're doing. I believe this configuration should work with any Asus X570 motherboards with a big navi GPU. But I take no responsibility for any damage that may be caused if you do not audit this configuration before using it.
 ## Platform Info (SMBios) - Required
 The `config.plist` file requires information about your mac hardware. You will need to add information before attempting to use this opencore EFI. This plist is configured as a `MacPro7,1`.
 
